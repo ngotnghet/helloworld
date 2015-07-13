@@ -1,0 +1,8 @@
+# all applications use these settings and services
+domain: mybluemix.net
+memory: 1G
+instances: 1
+applications:
+- name: hello
+  host: anhln-hello
+  path: ./target/hello.war
